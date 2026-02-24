@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LocalLaunch | Websites for Local Businesses</title>
+<title>LaunchLocal | Websites That Grow Local Businesses</title>
 
-<!-- Favicon -->
+<!-- Rocket Favicon -->
 <link rel="icon" href="data:image/svg+xml,
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
 <text y='0.9em' font-size='90'>🚀</text>
@@ -15,7 +15,12 @@
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Inter',sans-serif;background:#0f172a;color:#fff;}
+body{
+  font-family:'Inter',sans-serif;
+  background:#0f172a;
+  color:#fff;
+  line-height:1.6;
+}
 
 header{
   padding:20px 8%;
@@ -31,6 +36,7 @@ header{
 header h1{
   font-size:20px;
   font-weight:800;
+  letter-spacing:1px;
 }
 
 nav a{
@@ -47,17 +53,22 @@ nav a{
   font-weight:600;
   text-decoration:none;
   border-radius:4px;
+  transition:.2s;
+}
+
+.btn:hover{
+  background:#16a34a;
 }
 
 .hero{
-  padding:150px 8% 100px;
+  padding:160px 8% 100px;
   text-align:center;
   background:linear-gradient(to bottom,#0f172a,#111827);
 }
 
 .hero h2{
-  font-size:42px;
-  max-width:800px;
+  font-size:44px;
+  max-width:850px;
   margin:auto;
   line-height:1.2;
   margin-bottom:20px;
@@ -74,7 +85,7 @@ section{
 }
 
 .section-title{
-  font-size:30px;
+  font-size:32px;
   text-align:center;
   margin-bottom:50px;
 }
@@ -89,6 +100,10 @@ section{
   background:#1e293b;
   padding:30px;
   border-radius:8px;
+}
+
+.feature h4{
+  margin-bottom:10px;
 }
 
 .demos{
@@ -133,7 +148,7 @@ section{
 }
 
 .price{
-  font-size:28px;
+  font-size:26px;
   font-weight:800;
   margin-bottom:10px;
 }
@@ -148,17 +163,17 @@ section{
   text-align:center;
   background:#22c55e;
   color:#000;
-  padding:60px 20px;
+  padding:70px 20px;
 }
 
 .cta h2{
-  font-size:32px;
+  font-size:34px;
   margin-bottom:15px;
 }
 
 footer{
   text-align:center;
-  padding:25px;
+  padding:30px;
   background:#0b1120;
   color:#94a3b8;
   font-size:14px;
@@ -173,8 +188,9 @@ footer{
 <body>
 
 <header>
-  <h1>LocalLaunch</h1>
+  <h1>LaunchLocal</h1>
   <nav>
+    <a href="#solution">Solution</a>
     <a href="#demos">Demos</a>
     <a href="#pricing">Pricing</a>
     <a href="#contact" class="btn">Get Demo</a>
@@ -182,29 +198,29 @@ footer{
 </header>
 
 <section class="hero">
-  <h2>Modern Websites That Help Local Businesses Get More Customers</h2>
-  <p>I build clean, mobile‑optimized websites for restaurants, barbershops, gyms and local service businesses — with ongoing support included.</p>
-  <a href="#contact" class="btn">Request a Free Demo</a>
+  <h2>Launch Your Local Business Online — The Right Way</h2>
+  <p>We build modern, conversion‑focused websites for restaurants, barbershops, gyms and service businesses — designed to generate real customers, not just look good.</p>
+  <a href="#contact" class="btn">Request Free Demo</a>
 </section>
 
-<section>
-  <h2 class="section-title">What You Get</h2>
+<section id="solution">
+  <h2 class="section-title">Built To Drive Growth</h2>
   <div class="features">
     <div class="feature">
-      <h4>📱 Mobile Optimized</h4>
-      <p>Built for customers searching on their phones.</p>
+      <h4>📱 Mobile‑First Design</h4>
+      <p>Optimized for customers searching on their phones.</p>
+    </div>
+    <div class="feature">
+      <h4>📅 Booking & Lead Capture</h4>
+      <p>Turn visitors into appointments and inquiries automatically.</p>
     </div>
     <div class="feature">
       <h4>⚡ Fast & Secure Hosting</h4>
-      <p>Reliable performance with global deployment.</p>
-    </div>
-    <div class="feature">
-      <h4>📅 Booking & Contact Forms</h4>
-      <p>Turn visitors into real appointments and leads.</p>
+      <p>Deployed globally for speed and reliability.</p>
     </div>
     <div class="feature">
       <h4>🔧 Ongoing Support</h4>
-      <p>Updates, edits and maintenance included.</p>
+      <p>Edits, updates, and maintenance included.</p>
     </div>
   </div>
 </section>
@@ -214,27 +230,27 @@ footer{
   <div class="demos">
 
     <div class="demo-card">
-      <h4>💈 Barbershop Demo</h4>
-      <p>Conversion-focused design built to increase bookings.</p>
-      <a href="https://cut-craft-demo.vercel.app/#book" target="_blank">View Live Demo →</a>
+      <h4>💈 Barbershop Website</h4>
+      <p>Designed to increase bookings and repeat customers.</p>
+      <a href="https://cut-craft-demo.vercel.app/#book" target="_blank">View Demo →</a>
     </div>
 
     <div class="demo-card">
-      <h4>🏋️ Gym Demo</h4>
-      <p>Designed to turn visitors into trial signups.</p>
-      <a href="https://iron-forge-demo.vercel.app/#classes" target="_blank">View Live Demo →</a>
+      <h4>🏋️ Gym Website</h4>
+      <p>Built to convert visitors into memberships.</p>
+      <a href="https://iron-forge-demo.vercel.app/#classes" target="_blank">View Demo →</a>
     </div>
 
     <div class="demo-card">
-      <h4>🥙 Halal Restaurant Demo</h4>
-      <p>Built to showcase menu and drive walk-ins.</p>
-      <a href="https://halal-grill-demo-work.vercel.app/#contact" target="_blank">View Live Demo →</a>
+      <h4>🥙 Restaurant Website</h4>
+      <p>Showcase menus and drive more walk‑ins.</p>
+      <a href="https://halal-grill-demo-work.vercel.app/#contact" target="_blank">View Demo →</a>
     </div>
 
     <div class="demo-card">
-      <h4>🍝 Italian Restaurant Demo</h4>
-      <p>Modern dining website with dynamic menu.</p>
-      <a href="https://bella-vista-demo1.vercel.app" target="_blank">View Live Demo →</a>
+      <h4>🍝 Italian Restaurant Website</h4>
+      <p>Elegant dining site with dynamic menu.</p>
+      <a href="https://bella-vista-demo1.vercel.app" target="_blank">View Demo →</a>
     </div>
 
   </div>
@@ -245,23 +261,23 @@ footer{
   <div class="pricing">
 
     <div class="plan">
-      <h3>Starter</h3>
+      <h3>Website Setup</h3>
       <div class="price">$350</div>
-      <div class="small">One-time setup</div>
+      <div class="small">One-time build fee</div>
       <p>Custom Website<br>Mobile Optimization<br>Contact Form Setup</p>
     </div>
 
     <div class="plan">
-      <h3>Growth</h3>
-      <div class="price">$350 + $29/mo</div>
-      <div class="small">Best Value</div>
-      <p>Everything in Starter<br>Hosting Included<br>Unlimited Minor Edits</p>
+      <h3>Growth Plan</h3>
+      <div class="price">$29/month</div>
+      <div class="small">Ongoing support</div>
+      <p>Hosting Included<br>Unlimited Minor Edits<br>Basic SEO Setup</p>
     </div>
 
     <div class="plan">
-      <h3>Pro</h3>
-      <div class="price">$350 + $49/mo</div>
-      <div class="small">For Growing Businesses</div>
+      <h3>Pro Plan</h3>
+      <div class="price">$49/month</div>
+      <div class="small">For growing businesses</div>
       <p>Everything in Growth<br>Booking Integration<br>Priority Support</p>
     </div>
 
@@ -269,12 +285,12 @@ footer{
 </section>
 
 <section id="contact" class="cta">
-  <h2>Want a Website Like These?</h2>
-  <p>Message me for a free demo customized for your business.</p>
+  <h2>Ready To Launch?</h2>
+  <p>Get a free demo customized for your business.</p>
 </section>
 
 <footer>
-© 2026 LocalLaunch | Built for Local Businesses
+© 2026 LaunchLocal | Helping Local Businesses Win Online
 </footer>
 
 </body>
